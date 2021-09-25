@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>sign up page </title>
+<body style="background-color:lightblue;text-align:center">
+<h1 style="color:red">Sign up </h1>
+<p>please fill to complete signup process</p>
+<pre>
+<form><b>
+Signup for :<select required name="options">
+                 <option value="Doctor">Doctor</option>
+				 <option value="Patient" >Patient</option>
+				 </select><br>
+       Name:<input required  type="text" placeholder="Your Name" maxlength="15"><br>
+        Age:<input required type="text" placeholder="0-99"  pattern="[0-9]{2}"><br>
+Gender:<select  name="options">
+                 <option value="gender">None</option>
+                 <option value="Male">Male</option>
+				 <option value="Female" >Female</option>
+				  <option value="gender">Not TO Disclose</option>
+				 </select><br>
+   Username:<input required type="text" name="Username" placeholder="username"><br>
+   Password:<input required type="text" minlength=6 placeholder="******" ><br>
+   Email Id:<input required type="email" placeholder="name@mail.com"><br>
+           Mobile no:<input type="text" value ="+91" size="2"><input required type="phone"   pattern="[0-9]{10}" >(+91-xxxxxxxxxx)<br>
+    Address:<input required type="text" > <br>
+       City:<input required type="text"><br>
+      State:<input required type="text"><br>
+                  Zip:<input required type="text"  pattern="[0-9]{6}" >(ex:400000)<br>
+      
+         <button type="Login" >save and login </button>  <button type="Login" >Cancel </button>
+</pre>
+</form>
+
+</body>
+</html>
